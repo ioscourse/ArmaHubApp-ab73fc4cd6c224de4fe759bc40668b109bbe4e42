@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Arma Hub App View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController providesPresentationContextTransitionStyle="YES" id="2" customClass="ArmaHubAppViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="480" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="iPad_BG01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hZG-KL-7Cz"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whc-VM-zZV">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="f8X-4k-C1y"/>
+                                    <constraint firstAttribute="width" constant="175" id="xbs-Zq-ofQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="button01.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ov4-0b-R0T" kind="modal" id="yMG-mj-Igo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ft9-oX-hYy">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="TQO-qP-vQh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="button02.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pGa-g7-4n2" kind="modal" id="hep-sA-K30"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8d-Pv-qo8">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="j6s-pR-h2Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="button03.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JNu-Ed-Mxo" kind="modal" id="vsY-e1-tw6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1or-yi-REp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="XXy-Yv-feJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="button04.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Cfm-E4-koY" kind="modal" id="pfV-Eg-TiG"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="ARMA_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="OOU-C9-Hla"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Q8d-Pv-qo8" firstAttribute="leading" secondItem="ft9-oX-hYy" secondAttribute="leading" type="default" id="2KL-NM-wJb"/>
+                            <constraint firstItem="Whc-VM-zZV" firstAttribute="centerX" secondItem="OOU-C9-Hla" secondAttribute="centerX" type="default" id="9Xi-oq-KJ1"/>
+                            <constraint firstItem="hZG-KL-7Cz" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="AHO-yp-Z3v"/>
+                            <constraint firstItem="ft9-oX-hYy" firstAttribute="leading" secondItem="Whc-VM-zZV" secondAttribute="leading" type="default" id="H1H-0N-WBo"/>
+                            <constraint firstItem="1or-yi-REp" firstAttribute="leading" secondItem="Q8d-Pv-qo8" secondAttribute="leading" type="default" id="KE1-NQ-Nb6"/>
+                            <constraint firstItem="Q8d-Pv-qo8" firstAttribute="top" secondItem="ft9-oX-hYy" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="MZx-hv-YUS"/>
+                            <constraint firstItem="OOU-C9-Hla" firstAttribute="top" secondItem="3" secondAttribute="top" constant="25" id="T5h-6c-3Ak"/>
+                            <constraint firstItem="hZG-KL-7Cz" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="TvL-TC-Kmg"/>
+                            <constraint firstItem="hZG-KL-7Cz" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="XZs-oS-0Gi"/>
+                            <constraint firstItem="Q8d-Pv-qo8" firstAttribute="trailing" secondItem="ft9-oX-hYy" secondAttribute="trailing" type="default" id="Yur-RO-6NE"/>
+                            <constraint firstItem="ft9-oX-hYy" firstAttribute="trailing" secondItem="Whc-VM-zZV" secondAttribute="trailing" type="default" id="cog-ea-6hs"/>
+                            <constraint firstItem="1or-yi-REp" firstAttribute="trailing" secondItem="Q8d-Pv-qo8" secondAttribute="trailing" type="default" id="cu0-XO-KR9"/>
+                            <constraint firstItem="hZG-KL-7Cz" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="kzr-1P-zCi"/>
+                            <constraint firstItem="1or-yi-REp" firstAttribute="top" secondItem="Q8d-Pv-qo8" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oYm-IP-Kob"/>
+                            <constraint firstAttribute="bottom" secondItem="1or-yi-REp" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="rqq-Rj-hWU"/>
+                            <constraint firstItem="ft9-oX-hYy" firstAttribute="top" secondItem="Whc-VM-zZV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="s8w-w6-JWL"/>
+                            <constraint firstItem="ft9-oX-hYy" firstAttribute="centerX" secondItem="hZG-KL-7Cz" secondAttribute="centerX" type="default" id="zFo-qe-nMc"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-19040" y="-17510"/>
+        </scene>
+        <!--Arma Video View Controller-->
+        <scene sceneID="mzR-4J-hvd">
+            <objects>
+                <viewController autoresizesArchivedViewToFullSize="NO" wantsFullScreenLayout="YES" id="ov4-0b-R0T" customClass="ArmaVideoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sly-c7-mvF">
+                        <rect key="frame" x="0.0" y="20" width="480" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFS-w3-PJ8">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mjE-7H-HqI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2" kind="modal" id="9jB-EZ-Oh9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="tFS-w3-PJ8" secondAttribute="bottom" constant="13" id="0I0-h2-yAN"/>
+                            <constraint firstItem="tFS-w3-PJ8" firstAttribute="leading" secondItem="Sly-c7-mvF" secondAttribute="leading" constant="30" id="2cV-S3-R25"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aiJ-j9-VAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18356" y="-17510"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ilw-Rn-LAn">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="pGa-g7-4n2" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9hp-DL-P1U">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="bkl-Y8-Wld" kind="relationship" relationship="rootViewController" id="CSm-db-7J8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hla-tE-oU2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-19040" y="-17034"/>
+        </scene>
+        <!--Arma Twitter View Controller-->
+        <scene sceneID="aaz-gS-jzH">
+            <objects>
+                <viewController id="JNu-Ed-Mxo" customClass="ArmaTwitterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nPT-da-GJX">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g81-H1-QwC">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="sQp-wx-Q2M" kind="embed" id="eHr-Ni-689"/>
+                                </connections>
+                            </containerView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="frS-tT-WV7">
+                                <items>
+                                    <navigationItem title="News Feed" id="mD3-W7-ihR">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="SZB-xc-0uJ">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="dGC-jp-hgY"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="frS-tT-WV7" firstAttribute="top" secondItem="nPT-da-GJX" secondAttribute="top" type="default" id="91p-wm-7WP"/>
+                            <constraint firstItem="g81-H1-QwC" firstAttribute="trailing" secondItem="nPT-da-GJX" secondAttribute="trailing" type="default" id="Aaa-Cx-Ztu"/>
+                            <constraint firstItem="g81-H1-QwC" firstAttribute="top" secondItem="frS-tT-WV7" secondAttribute="bottom" type="default" id="SSX-7z-43c"/>
+                            <constraint firstItem="frS-tT-WV7" firstAttribute="trailing" secondItem="nPT-da-GJX" secondAttribute="trailing" type="default" id="WZB-60-TrP"/>
+                            <constraint firstItem="g81-H1-QwC" firstAttribute="leading" secondItem="nPT-da-GJX" secondAttribute="leading" type="default" id="Xeu-nf-MwW"/>
+                            <constraint firstItem="g81-H1-QwC" firstAttribute="bottom" secondItem="nPT-da-GJX" secondAttribute="bottom" type="default" id="kI1-qH-9iQ"/>
+                            <constraint firstItem="frS-tT-WV7" firstAttribute="leading" secondItem="nPT-da-GJX" secondAttribute="leading" type="default" id="nJj-co-NT1"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="view" destination="nPT-da-GJX" id="7cP-iF-iPs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oq1-WQ-wo0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-19035" y="-16337"/>
+        </scene>
+        <!--Arma Extras View Controller-->
+        <scene sceneID="j48-oo-K6t">
+            <objects>
+                <viewController id="Cfm-E4-koY" customClass="ArmaExtrasViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EG1-Ki-qHT">
+                        <rect key="frame" x="0.0" y="20" width="480" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="iPad_BG02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FTO-PL-nXw"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kce-Bd-5Zd">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="h3o-Uv-4GZ"/>
+                                    <constraint firstAttribute="height" constant="44" id="nSL-xu-FgQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Concept Art" image="ebutton01.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mcC-5Z-dVn" kind="modal" id="jnk-zm-Frt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHf-E2-2sj">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Toy Images" image="ebutton02.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hYp-eE-jD8" kind="modal" id="KPB-gC-TE1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKe-g9-43D">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Return to Main Menu" image="ebutton03.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2" kind="modal" id="FLd-S7-BF1"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="ARMA_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="kv0-pl-9OP"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kv0-pl-9OP" firstAttribute="centerX" secondItem="kce-Bd-5Zd" secondAttribute="centerX" type="default" id="24m-O7-Np3"/>
+                            <constraint firstItem="gHf-E2-2sj" firstAttribute="top" secondItem="kce-Bd-5Zd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="4bM-Zo-MSg"/>
+                            <constraint firstItem="HKe-g9-43D" firstAttribute="top" secondItem="gHf-E2-2sj" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="BQd-LN-CbG"/>
+                            <constraint firstItem="gHf-E2-2sj" firstAttribute="trailing" secondItem="kce-Bd-5Zd" secondAttribute="trailing" type="default" id="Cdf-Xt-te7"/>
+                            <constraint firstItem="kce-Bd-5Zd" firstAttribute="top" secondItem="EG1-Ki-qHT" secondAttribute="top" constant="120" id="Fam-ng-JO5"/>
+                            <constraint firstItem="gHf-E2-2sj" firstAttribute="leading" secondItem="HKe-g9-43D" secondAttribute="leading" type="default" id="OGM-c6-dpg"/>
+                            <constraint firstItem="FTO-PL-nXw" firstAttribute="trailing" secondItem="EG1-Ki-qHT" secondAttribute="trailing" type="default" id="U5T-nP-Tpz"/>
+                            <constraint firstItem="FTO-PL-nXw" firstAttribute="leading" secondItem="EG1-Ki-qHT" secondAttribute="leading" type="default" id="Vbs-NP-COy"/>
+                            <constraint firstItem="gHf-E2-2sj" firstAttribute="trailing" secondItem="HKe-g9-43D" secondAttribute="trailing" type="default" id="bWT-yi-qPr"/>
+                            <constraint firstItem="kv0-pl-9OP" firstAttribute="top" secondItem="EG1-Ki-qHT" secondAttribute="top" constant="20" symbolic="YES" type="default" id="hdh-83-k6N"/>
+                            <constraint firstItem="FTO-PL-nXw" firstAttribute="bottom" secondItem="EG1-Ki-qHT" secondAttribute="bottom" type="default" id="mJS-fW-B6Q"/>
+                            <constraint firstItem="kce-Bd-5Zd" firstAttribute="centerX" secondItem="FTO-PL-nXw" secondAttribute="centerX" type="default" id="mfy-hM-5Mn"/>
+                            <constraint firstItem="FTO-PL-nXw" firstAttribute="top" secondItem="EG1-Ki-qHT" secondAttribute="top" type="default" id="ymN-IM-8Jd"/>
+                            <constraint firstItem="gHf-E2-2sj" firstAttribute="leading" secondItem="kce-Bd-5Zd" secondAttribute="leading" type="default" id="yvI-jp-d8u"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C4I-v6-AdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17963" y="-16076"/>
+        </scene>
+        <!--Arma Comic1 View Controller-->
+        <scene sceneID="RwC-BO-VMx">
+            <objects>
+                <viewController id="bkl-Y8-Wld" customClass="ArmaComic1ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WrU-JA-1cX">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="OZ6-jf-YXR">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="izk-yf-gzG"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Issue #1 Pg. 01" id="6iA-qx-ag8">
+                                        <barButtonItem key="leftBarButtonItem" title="Main Menu" id="Xik-Fe-8r0">
+                                            <connections>
+                                                <segue destination="2" kind="modal" modalTransitionStyle="coverVertical" id="D8a-4a-0PO"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="comic01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IVd-g5-RaN">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="IVd-g5-RaN" firstAttribute="bottom" secondItem="WrU-JA-1cX" secondAttribute="bottom" type="default" id="CSU-IF-aMS"/>
+                            <constraint firstItem="OZ6-jf-YXR" firstAttribute="leading" secondItem="WrU-JA-1cX" secondAttribute="leading" type="default" id="d3Y-sM-dQn"/>
+                            <constraint firstItem="IVd-g5-RaN" firstAttribute="leading" secondItem="WrU-JA-1cX" secondAttribute="leading" type="default" id="emU-dC-HaI"/>
+                            <constraint firstItem="OZ6-jf-YXR" firstAttribute="top" secondItem="WrU-JA-1cX" secondAttribute="top" type="default" id="j6q-Bm-eXp"/>
+                            <constraint firstItem="OZ6-jf-YXR" firstAttribute="trailing" secondItem="WrU-JA-1cX" secondAttribute="trailing" type="default" id="ph3-yc-u7w"/>
+                            <constraint firstItem="IVd-g5-RaN" firstAttribute="top" secondItem="OZ6-jf-YXR" secondAttribute="bottom" type="default" id="s9H-4d-tuA"/>
+                            <constraint firstItem="IVd-g5-RaN" firstAttribute="trailing" secondItem="WrU-JA-1cX" secondAttribute="trailing" type="default" id="sLD-Du-El6"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="JK5-xx-soK" appends="YES" id="aje-U0-Gwm"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="abP-Ff-QRs"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4FR-rX-oHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="JK5-xx-soK">
+                    <connections>
+                        <segue destination="DCc-zt-ZTT" kind="push" id="1pZ-uo-Jwk"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-18659" y="-17035"/>
+        </scene>
+        <!--Arma Comic2 View Controller-->
+        <scene sceneID="mdL-IO-slc">
+            <objects>
+                <viewController autoresizesArchivedViewToFullSize="NO" id="DCc-zt-ZTT" customClass="ArmaComic2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mel-2u-QTC">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jps-uc-AAS">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="lb5-yo-rwk">
+                                <items>
+                                    <navigationItem title="Issue #1 Pg. 02" id="8RF-2g-rE5">
+                                        <barButtonItem key="leftBarButtonItem" title="Main Menu" id="oUB-IY-mjQ">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="NZm-9Z-MIX"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="comic02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DVd-ON-bfc">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="504" id="R2u-PH-dZ2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="DVd-ON-bfc" firstAttribute="bottom" secondItem="Mel-2u-QTC" secondAttribute="bottom" type="default" id="4KP-0m-nJn"/>
+                            <constraint firstItem="DVd-ON-bfc" firstAttribute="trailing" secondItem="Mel-2u-QTC" secondAttribute="trailing" type="default" id="KfC-Dx-bzm"/>
+                            <constraint firstItem="DVd-ON-bfc" firstAttribute="leading" secondItem="Mel-2u-QTC" secondAttribute="leading" type="default" id="P3L-bs-C5A"/>
+                            <constraint firstItem="lb5-yo-rwk" firstAttribute="leading" secondItem="Mel-2u-QTC" secondAttribute="leading" type="default" id="Q6B-18-afp"/>
+                            <constraint firstItem="lb5-yo-rwk" firstAttribute="centerX" secondItem="Jps-uc-AAS" secondAttribute="centerX" type="default" id="dUe-vM-TbX"/>
+                            <constraint firstItem="lb5-yo-rwk" firstAttribute="trailing" secondItem="Mel-2u-QTC" secondAttribute="trailing" type="default" id="dmm-jS-qVs"/>
+                            <constraint firstItem="Jps-uc-AAS" firstAttribute="top" secondItem="Mel-2u-QTC" secondAttribute="top" constant="263" id="fMu-lf-TO3"/>
+                            <constraint firstItem="lb5-yo-rwk" firstAttribute="top" secondItem="Mel-2u-QTC" secondAttribute="top" type="default" id="oSO-48-cGh"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="hqy-nj-I4F" appends="YES" id="Y5C-HZ-GKi"/>
+                            <outletCollection property="gestureRecognizers" destination="7ZO-m4-MZ3" appends="YES" id="yXS-g3-FrT"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="1du-9b-obg"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="saL-RF-0u8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="hqy-nj-I4F">
+                    <connections>
+                        <segue destination="atD-yR-vAQ" kind="push" id="c3L-CR-cU4"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="7ZO-m4-MZ3">
+                    <connections>
+                        <segue destination="bkl-Y8-Wld" kind="push" id="6JC-XK-7fl"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-18253" y="-17035"/>
+        </scene>
+        <!--Arma Comic3 View Controller-->
+        <scene sceneID="evi-F3-J5d">
+            <objects>
+                <viewController autoresizesArchivedViewToFullSize="NO" id="atD-yR-vAQ" customClass="ArmaComic3ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WBg-tQ-eCi">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjV-6m-spd">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="wsW-iA-9eO">
+                                <items>
+                                    <navigationItem title="Issue #1 Pg. 03" id="8PJ-yX-c9G">
+                                        <barButtonItem key="leftBarButtonItem" title="Main Menu" id="uqM-Fo-0YO">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="16h-K5-Scn"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="comic03.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dpb-kN-5bn">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="504" id="M1L-A3-K1t"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="wsW-iA-9eO" firstAttribute="trailing" secondItem="WBg-tQ-eCi" secondAttribute="trailing" type="default" id="ISd-eQ-iyi"/>
+                            <constraint firstItem="wsW-iA-9eO" firstAttribute="top" secondItem="WBg-tQ-eCi" secondAttribute="top" type="default" id="PJl-gV-Gw6"/>
+                            <constraint firstItem="wsW-iA-9eO" firstAttribute="centerX" secondItem="hjV-6m-spd" secondAttribute="centerX" type="default" id="W6M-eS-qCo"/>
+                            <constraint firstItem="wsW-iA-9eO" firstAttribute="leading" secondItem="WBg-tQ-eCi" secondAttribute="leading" type="default" id="c7b-MF-HKK"/>
+                            <constraint firstItem="Dpb-kN-5bn" firstAttribute="trailing" secondItem="WBg-tQ-eCi" secondAttribute="trailing" type="default" id="oh9-81-0As"/>
+                            <constraint firstItem="Dpb-kN-5bn" firstAttribute="bottom" secondItem="WBg-tQ-eCi" secondAttribute="bottom" type="default" id="pma-CV-7PW"/>
+                            <constraint firstItem="hjV-6m-spd" firstAttribute="top" secondItem="WBg-tQ-eCi" secondAttribute="top" constant="263" id="rUQ-JU-zkg"/>
+                            <constraint firstItem="Dpb-kN-5bn" firstAttribute="leading" secondItem="WBg-tQ-eCi" secondAttribute="leading" type="default" id="rZC-85-qeK"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Duj-YH-Gsd" appends="YES" id="x9A-Bv-y3u"/>
+                            <outletCollection property="gestureRecognizers" destination="pfn-oG-8px" appends="YES" id="t4R-wY-U65"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="oNa-zX-DEC"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="voy-zx-8qB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="Duj-YH-Gsd">
+                    <connections>
+                        <segue destination="zgx-ex-6ri" kind="push" id="WzV-H8-Zai"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="pfn-oG-8px">
+                    <connections>
+                        <segue destination="DCc-zt-ZTT" kind="push" id="7pr-RN-9DP"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-17887" y="-17029"/>
+        </scene>
+        <!--Arma Twitter1 View Controller-->
+        <scene sceneID="I9y-L9-PX9">
+            <objects>
+                <viewController id="sQp-wx-Q2M" customClass="ArmaTwitter1ViewController" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ywQ-SM-upO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBV-Eo-p7x">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="sQp-wx-Q2M" id="jnM-2T-MZ3"/>
+                                </connections>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvc-Ne-h2g">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="Lpz-Uk-YJp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Armauraders">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnArmauraders:" destination="sQp-wx-Q2M" eventType="touchUpInside" id="pmQ-Mm-Ojc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eid-pv-IKg">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="8ni-J5-2Q6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Mechaworkshop">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnMecha:" destination="sQp-wx-Q2M" eventType="touchUpInside" id="1WT-Vb-n2e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="Eid-pv-IKg" firstAttribute="top" secondItem="ywQ-SM-upO" secondAttribute="top" constant="20" symbolic="YES" type="default" id="D2d-FP-g4p"/>
+                            <constraint firstItem="ZBV-Eo-p7x" firstAttribute="top" secondItem="Vvc-Ne-h2g" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="PvY-E4-8oD"/>
+                            <constraint firstItem="ZBV-Eo-p7x" firstAttribute="trailing" secondItem="ywQ-SM-upO" secondAttribute="trailing" type="default" id="Rfi-Rg-nOJ"/>
+                            <constraint firstItem="Vvc-Ne-h2g" firstAttribute="top" secondItem="ywQ-SM-upO" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Rna-t6-nwV"/>
+                            <constraint firstItem="Vvc-Ne-h2g" firstAttribute="baseline" secondItem="Eid-pv-IKg" secondAttribute="baseline" type="default" id="SZb-TE-ESq"/>
+                            <constraint firstItem="ZBV-Eo-p7x" firstAttribute="leading" secondItem="ywQ-SM-upO" secondAttribute="leading" type="default" id="XFg-75-GPy"/>
+                            <constraint firstItem="ZBV-Eo-p7x" firstAttribute="bottom" secondItem="ywQ-SM-upO" secondAttribute="bottom" type="default" id="XKG-b0-ciD"/>
+                            <constraint firstItem="Vvc-Ne-h2g" firstAttribute="leading" secondItem="ywQ-SM-upO" secondAttribute="leading" constant="16" id="aqW-C4-pSp"/>
+                            <constraint firstItem="Eid-pv-IKg" firstAttribute="leading" secondItem="Vvc-Ne-h2g" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="tqO-yC-A3j"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="view" destination="ywQ-SM-upO" id="4hL-GD-dLi"/>
+                        <outlet property="webview" destination="ZBV-Eo-p7x" id="bct-V1-eep"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zba-Df-JsH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18609" y="-16284"/>
+        </scene>
+        <!--Arma Comic4 View Controller-->
+        <scene sceneID="iW9-jF-syn">
+            <objects>
+                <viewController id="zgx-ex-6ri" customClass="ArmaComic4ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qbO-iw-5BW">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lE-bJ-NeW">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="orm-36-y4f">
+                                <items>
+                                    <navigationItem title="Issue #1 Pg. 04" id="v8C-8a-noA">
+                                        <barButtonItem key="leftBarButtonItem" title="Main Menu" id="3vQ-Ol-bH8">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="0Gv-AG-xlO"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="comic04.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xTt-qD-3og">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="504" id="zhu-Td-hXn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="orm-36-y4f" firstAttribute="leading" secondItem="qbO-iw-5BW" secondAttribute="leading" type="default" id="0je-j2-l2C"/>
+                            <constraint firstItem="xTt-qD-3og" firstAttribute="trailing" secondItem="qbO-iw-5BW" secondAttribute="trailing" type="default" id="AA0-gL-0eZ"/>
+                            <constraint firstItem="5lE-bJ-NeW" firstAttribute="top" secondItem="qbO-iw-5BW" secondAttribute="top" constant="263" id="HRC-v2-YsB"/>
+                            <constraint firstItem="xTt-qD-3og" firstAttribute="bottom" secondItem="qbO-iw-5BW" secondAttribute="bottom" type="default" id="HXl-AR-pmv"/>
+                            <constraint firstItem="orm-36-y4f" firstAttribute="trailing" secondItem="qbO-iw-5BW" secondAttribute="trailing" type="default" id="WpS-rX-KhF"/>
+                            <constraint firstItem="orm-36-y4f" firstAttribute="centerX" secondItem="5lE-bJ-NeW" secondAttribute="centerX" type="default" id="kt2-gs-kaK"/>
+                            <constraint firstItem="orm-36-y4f" firstAttribute="top" secondItem="qbO-iw-5BW" secondAttribute="top" type="default" id="sXr-Cr-9dG"/>
+                            <constraint firstItem="xTt-qD-3og" firstAttribute="leading" secondItem="qbO-iw-5BW" secondAttribute="leading" type="default" id="sh1-aG-4dl"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="hKG-GA-rW5" appends="YES" id="63e-ox-RYj"/>
+                            <outletCollection property="gestureRecognizers" destination="Bb1-9U-BD3" appends="YES" id="I5c-6O-lSp"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="YmG-Zj-bhO"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CxZ-U0-zEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="hKG-GA-rW5">
+                    <connections>
+                        <segue destination="pK9-VJ-bfp" kind="push" id="dP0-k5-z0l"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Bb1-9U-BD3">
+                    <connections>
+                        <segue destination="atD-yR-vAQ" kind="push" id="1jP-ZE-Adi"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-17503" y="-17035"/>
+        </scene>
+        <!--Arma Comic5 View Controller-->
+        <scene sceneID="n12-g3-jKU">
+            <objects>
+                <viewController id="pK9-VJ-bfp" customClass="ArmaComic5ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O2L-Pv-KW5">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y18-Zo-t9Y">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="Lsa-vA-dhc">
+                                <items>
+                                    <navigationItem title="Issue #1 Pg. 05" id="aZD-us-4Lh">
+                                        <barButtonItem key="leftBarButtonItem" title="Main Menu" id="zlD-hO-3ho">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="YX7-5n-LgR"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="comic05.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4YQ-3d-JC4">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="504" id="a2S-DM-HZy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Lsa-vA-dhc" firstAttribute="trailing" secondItem="O2L-Pv-KW5" secondAttribute="trailing" type="default" id="4sM-eQ-w19"/>
+                            <constraint firstItem="4YQ-3d-JC4" firstAttribute="bottom" secondItem="O2L-Pv-KW5" secondAttribute="bottom" type="default" id="C4g-Jh-jMm"/>
+                            <constraint firstItem="4YQ-3d-JC4" firstAttribute="trailing" secondItem="O2L-Pv-KW5" secondAttribute="trailing" type="default" id="F06-O0-HMN"/>
+                            <constraint firstItem="4YQ-3d-JC4" firstAttribute="leading" secondItem="O2L-Pv-KW5" secondAttribute="leading" type="default" id="LA3-Pf-4XM"/>
+                            <constraint firstItem="Lsa-vA-dhc" firstAttribute="centerX" secondItem="Y18-Zo-t9Y" secondAttribute="centerX" type="default" id="OhY-0D-mbO"/>
+                            <constraint firstItem="Lsa-vA-dhc" firstAttribute="top" secondItem="O2L-Pv-KW5" secondAttribute="top" type="default" id="Wvy-i9-lOx"/>
+                            <constraint firstItem="Lsa-vA-dhc" firstAttribute="leading" secondItem="O2L-Pv-KW5" secondAttribute="leading" type="default" id="Zfw-DJ-gUw"/>
+                            <constraint firstItem="Y18-Zo-t9Y" firstAttribute="top" secondItem="O2L-Pv-KW5" secondAttribute="top" constant="263" id="nLa-ne-CrY"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="GRD-mc-hCU" appends="YES" id="6Iz-Mh-ZRE"/>
+                            <outletCollection property="gestureRecognizers" destination="5jB-0e-352" appends="YES" id="CdQ-OI-4oF"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="EpI-fp-rOD"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="81W-kZ-sSD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="GRD-mc-hCU"/>
+                <swipeGestureRecognizer direction="right" id="5jB-0e-352">
+                    <connections>
+                        <segue destination="zgx-ex-6ri" kind="push" id="MuP-th-ZfT"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-17129" y="-17035"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yu6-F9-bOD">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="hYp-eE-jD8" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Dg-nk-5ne">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="D6t-6N-MXs" kind="relationship" relationship="rootViewController" id="7zA-aF-aea"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZVn-Iq-lYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-19052" y="-15222"/>
+        </scene>
+        <!--Arma Toy01 View Controller-->
+        <scene sceneID="aAa-H8-3ji">
+            <objects>
+                <viewController id="D6t-6N-MXs" customClass="ArmaToy01ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5L2-tE-lfx">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="X8n-Uf-yxd">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="hIQ-9M-lRs"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Toy Image 1" id="Y7s-lZ-UMP">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="bId-1J-qWt">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="usF-6A-eV3"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="toy01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vFj-RE-PYV">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="vFj-RE-PYV" firstAttribute="top" secondItem="X8n-Uf-yxd" secondAttribute="bottom" type="default" id="8zn-cr-Chm"/>
+                            <constraint firstItem="vFj-RE-PYV" firstAttribute="bottom" secondItem="5L2-tE-lfx" secondAttribute="bottom" type="default" id="Xbg-dA-Ff7"/>
+                            <constraint firstItem="vFj-RE-PYV" firstAttribute="trailing" secondItem="5L2-tE-lfx" secondAttribute="trailing" type="default" id="YDk-4A-rtO"/>
+                            <constraint firstItem="X8n-Uf-yxd" firstAttribute="top" secondItem="5L2-tE-lfx" secondAttribute="top" type="default" id="b8b-uj-XtR"/>
+                            <constraint firstItem="X8n-Uf-yxd" firstAttribute="trailing" secondItem="5L2-tE-lfx" secondAttribute="trailing" type="default" id="jrV-ez-OBQ"/>
+                            <constraint firstItem="vFj-RE-PYV" firstAttribute="leading" secondItem="5L2-tE-lfx" secondAttribute="leading" type="default" id="qyj-Pp-kEz"/>
+                            <constraint firstItem="X8n-Uf-yxd" firstAttribute="leading" secondItem="5L2-tE-lfx" secondAttribute="leading" type="default" id="rOJ-Os-yRm"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="nBz-3N-5bv" appends="YES" id="YFV-S4-bwL"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="IrY-YK-B3p"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0M5-gh-wK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="nBz-3N-5bv">
+                    <connections>
+                        <segue destination="q7n-JC-6tc" kind="push" id="NmX-Hi-BzD"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-18671" y="-15223"/>
+        </scene>
+        <!--Arma Toy02 View Controller-->
+        <scene sceneID="nPW-0z-UWd">
+            <objects>
+                <viewController id="q7n-JC-6tc" customClass="ArmaToy02ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dVZ-RX-xnT">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Saw-bV-GVX">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="OTg-2n-qFr">
+                                <items>
+                                    <navigationItem title="Toy Image 2" id="7xt-nx-YYI">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="iaB-bZ-lG3">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="ctb-7B-bha"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="toy02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="p59-Yv-4oB">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="504" id="9qj-3v-0JS"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Saw-bV-GVX" firstAttribute="top" secondItem="dVZ-RX-xnT" secondAttribute="top" constant="263" id="BGs-2l-CBa"/>
+                            <constraint firstItem="OTg-2n-qFr" firstAttribute="centerX" secondItem="Saw-bV-GVX" secondAttribute="centerX" type="default" id="Hku-cJ-aoA"/>
+                            <constraint firstItem="OTg-2n-qFr" firstAttribute="leading" secondItem="dVZ-RX-xnT" secondAttribute="leading" type="default" id="R0w-Qa-1aS"/>
+                            <constraint firstItem="p59-Yv-4oB" firstAttribute="leading" secondItem="dVZ-RX-xnT" secondAttribute="leading" type="default" id="TfG-la-A5v"/>
+                            <constraint firstItem="p59-Yv-4oB" firstAttribute="bottom" secondItem="dVZ-RX-xnT" secondAttribute="bottom" type="default" id="U7T-fS-q95"/>
+                            <constraint firstItem="p59-Yv-4oB" firstAttribute="trailing" secondItem="dVZ-RX-xnT" secondAttribute="trailing" type="default" id="W2x-4J-AaH"/>
+                            <constraint firstItem="OTg-2n-qFr" firstAttribute="trailing" secondItem="dVZ-RX-xnT" secondAttribute="trailing" type="default" id="rex-x7-ipr"/>
+                            <constraint firstItem="OTg-2n-qFr" firstAttribute="top" secondItem="dVZ-RX-xnT" secondAttribute="top" type="default" id="yTd-o5-0Sd"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="cbf-n6-EJj" appends="YES" id="rAP-mU-TVS"/>
+                            <outletCollection property="gestureRecognizers" destination="pXe-sR-5iC" appends="YES" id="XEe-Ot-TpR"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="8v3-P3-Oij"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6cy-KA-kWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="cbf-n6-EJj">
+                    <connections>
+                        <segue destination="yJo-Ef-ueI" kind="push" id="G3Z-rU-Vqt"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="pXe-sR-5iC">
+                    <connections>
+                        <segue destination="D6t-6N-MXs" kind="push" id="EJO-43-86O"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-18265" y="-15223"/>
+        </scene>
+        <!--Arma Toy03 View Controller-->
+        <scene sceneID="DsB-fT-zGf">
+            <objects>
+                <viewController id="yJo-Ef-ueI" customClass="ArmaToy03ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4UA-dm-kkn">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MX1-QA-Lj7">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="ck1-ek-paf">
+                                <items>
+                                    <navigationItem title="Toy Image 3" id="haL-Xm-dS8">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Y7a-xS-4aw">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="MxM-4Z-l3e"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="toy03.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Lwh-57-Stq">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="504" id="zy9-F8-DnD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ck1-ek-paf" firstAttribute="centerX" secondItem="MX1-QA-Lj7" secondAttribute="centerX" type="default" id="AdE-SR-9Kc"/>
+                            <constraint firstItem="Lwh-57-Stq" firstAttribute="bottom" secondItem="4UA-dm-kkn" secondAttribute="bottom" type="default" id="BgD-nb-nBd"/>
+                            <constraint firstItem="Lwh-57-Stq" firstAttribute="leading" secondItem="4UA-dm-kkn" secondAttribute="leading" type="default" id="FA3-Vc-gct"/>
+                            <constraint firstItem="ck1-ek-paf" firstAttribute="top" secondItem="4UA-dm-kkn" secondAttribute="top" type="default" id="Nom-xN-89p"/>
+                            <constraint firstItem="ck1-ek-paf" firstAttribute="trailing" secondItem="4UA-dm-kkn" secondAttribute="trailing" type="default" id="e5W-dp-M6m"/>
+                            <constraint firstItem="MX1-QA-Lj7" firstAttribute="top" secondItem="4UA-dm-kkn" secondAttribute="top" constant="263" id="eQK-my-PdO"/>
+                            <constraint firstItem="ck1-ek-paf" firstAttribute="leading" secondItem="4UA-dm-kkn" secondAttribute="leading" type="default" id="rnr-1s-QXW"/>
+                            <constraint firstItem="Lwh-57-Stq" firstAttribute="trailing" secondItem="4UA-dm-kkn" secondAttribute="trailing" type="default" id="yJC-Vk-7bb"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="5uy-ht-lET" appends="YES" id="ww6-q0-6N6"/>
+                            <outletCollection property="gestureRecognizers" destination="d3Q-eW-sEB" appends="YES" id="ADd-q3-nY4"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="EDk-f8-Yeb"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3oE-5o-AeE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="5uy-ht-lET">
+                    <connections>
+                        <segue destination="n3X-vb-bYB" kind="push" id="fNU-9H-pQa"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="d3Q-eW-sEB">
+                    <connections>
+                        <segue destination="q7n-JC-6tc" kind="push" id="CXg-QD-Pxy"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-17899" y="-15217"/>
+        </scene>
+        <!--Arma Toy04 View Controller-->
+        <scene sceneID="1yC-dy-dAh">
+            <objects>
+                <viewController id="n3X-vb-bYB" customClass="ArmaToy04ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Qk-RO-IQV">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0b-gK-sb5">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="6PJ-24-Jsg">
+                                <items>
+                                    <navigationItem title="Toy Image 4" id="WVL-aD-2TP">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="2Jn-DR-Uq0">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="7SX-MT-qAS"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="toy04.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aqL-YI-gPX">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="504" id="rax-OS-7CN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="aqL-YI-gPX" firstAttribute="leading" secondItem="4Qk-RO-IQV" secondAttribute="leading" type="default" id="5rv-lF-k22"/>
+                            <constraint firstItem="6PJ-24-Jsg" firstAttribute="leading" secondItem="4Qk-RO-IQV" secondAttribute="leading" type="default" id="8ZT-Ho-psV"/>
+                            <constraint firstItem="aqL-YI-gPX" firstAttribute="trailing" secondItem="4Qk-RO-IQV" secondAttribute="trailing" type="default" id="BoH-Bf-1j5"/>
+                            <constraint firstItem="c0b-gK-sb5" firstAttribute="top" secondItem="4Qk-RO-IQV" secondAttribute="top" constant="263" id="Ego-w7-W0O"/>
+                            <constraint firstItem="aqL-YI-gPX" firstAttribute="bottom" secondItem="4Qk-RO-IQV" secondAttribute="bottom" type="default" id="FOO-Ch-ncP"/>
+                            <constraint firstItem="6PJ-24-Jsg" firstAttribute="top" secondItem="4Qk-RO-IQV" secondAttribute="top" type="default" id="Owq-cH-Ohj"/>
+                            <constraint firstItem="6PJ-24-Jsg" firstAttribute="trailing" secondItem="4Qk-RO-IQV" secondAttribute="trailing" type="default" id="hWR-oa-SBc"/>
+                            <constraint firstItem="6PJ-24-Jsg" firstAttribute="centerX" secondItem="c0b-gK-sb5" secondAttribute="centerX" type="default" id="o8h-en-Ibz"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="9hU-NA-UGe" appends="YES" id="bJO-aE-DSF"/>
+                            <outletCollection property="gestureRecognizers" destination="WCn-aB-QV9" appends="YES" id="YLz-sT-Q6t"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="K63-dV-RmQ"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SXP-y7-M5n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="9hU-NA-UGe">
+                    <connections>
+                        <segue destination="aPI-QG-LDz" kind="push" id="iqh-8D-GfA"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="WCn-aB-QV9">
+                    <connections>
+                        <segue destination="yJo-Ef-ueI" kind="push" id="A8H-lH-usV"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-17531" y="-15217"/>
+        </scene>
+        <!--Arma Toy05 View Controller-->
+        <scene sceneID="l2v-rk-Y14">
+            <objects>
+                <viewController id="aPI-QG-LDz" customClass="ArmaToy05ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aqm-qL-LQc">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wr-es-hVs">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="SBV-dC-z3x">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="u3w-nL-2kD"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Toy Image 5" id="ExV-nr-2uN">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="ZH7-k4-XtY">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="Sj8-xc-yxm"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="toy05.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kSa-1N-SHI">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="kSa-1N-SHI" firstAttribute="leading" secondItem="Aqm-qL-LQc" secondAttribute="leading" type="default" id="A1I-mM-2so"/>
+                            <constraint firstItem="SBV-dC-z3x" firstAttribute="centerX" secondItem="7wr-es-hVs" secondAttribute="centerX" type="default" id="GY2-oO-Szn"/>
+                            <constraint firstItem="kSa-1N-SHI" firstAttribute="top" secondItem="SBV-dC-z3x" secondAttribute="bottom" type="default" id="Iab-Vt-rUL"/>
+                            <constraint firstItem="kSa-1N-SHI" firstAttribute="bottom" secondItem="Aqm-qL-LQc" secondAttribute="bottom" type="default" id="bxN-pP-44L"/>
+                            <constraint firstItem="kSa-1N-SHI" firstAttribute="trailing" secondItem="Aqm-qL-LQc" secondAttribute="trailing" type="default" id="ev2-UW-STG"/>
+                            <constraint firstItem="SBV-dC-z3x" firstAttribute="leading" secondItem="Aqm-qL-LQc" secondAttribute="leading" type="default" id="je5-ih-Jr4"/>
+                            <constraint firstItem="7wr-es-hVs" firstAttribute="top" secondItem="Aqm-qL-LQc" secondAttribute="top" constant="263" id="o2y-Ve-WPE"/>
+                            <constraint firstItem="SBV-dC-z3x" firstAttribute="trailing" secondItem="Aqm-qL-LQc" secondAttribute="trailing" type="default" id="ras-oi-Km8"/>
+                            <constraint firstItem="SBV-dC-z3x" firstAttribute="top" secondItem="Aqm-qL-LQc" secondAttribute="top" type="default" id="xjw-GJ-htC"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="fjI-7I-l3i" appends="YES" id="4EZ-lK-5SL"/>
+                            <outletCollection property="gestureRecognizers" destination="M7j-1J-B9Q" appends="YES" id="o0R-mx-KrF"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Rd-Se-s5H"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QIl-vN-T7A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="fjI-7I-l3i"/>
+                <swipeGestureRecognizer direction="right" id="M7j-1J-B9Q">
+                    <connections>
+                        <segue destination="n3X-vb-bYB" kind="push" id="Wei-uz-iky"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-17145" y="-15217"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8Lc-2l-dAV">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="mcC-5Z-dVn" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="R4F-L4-BLy">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Rdi-3V-xLG" kind="relationship" relationship="rootViewController" id="V2P-0j-S4a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="94O-lM-m2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18984" y="-14046"/>
+        </scene>
+        <!--Arma Concept1 View Controller-->
+        <scene sceneID="YzD-8s-fKX">
+            <objects>
+                <viewController id="Rdi-3V-xLG" customClass="ArmaConcept1ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zha-5s-KRL">
+                        <rect key="frame" x="0.0" y="20" width="568" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="IsP-kI-B5y">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="fSZ-ea-VwL"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Concept Art 1" id="jsb-F8-Toi">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="vxv-5p-Zx5">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="cih-8w-HdI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Concept01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="f5K-lp-vQX">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="f5K-lp-vQX" firstAttribute="leading" secondItem="zha-5s-KRL" secondAttribute="leading" type="default" id="94A-jZ-MUe"/>
+                            <constraint firstItem="IsP-kI-B5y" firstAttribute="trailing" secondItem="zha-5s-KRL" secondAttribute="trailing" type="default" id="H8n-Jd-JaW"/>
+                            <constraint firstItem="f5K-lp-vQX" firstAttribute="top" secondItem="IsP-kI-B5y" secondAttribute="bottom" type="default" id="Hwf-qw-DWX"/>
+                            <constraint firstItem="f5K-lp-vQX" firstAttribute="bottom" secondItem="zha-5s-KRL" secondAttribute="bottom" type="default" id="KRw-om-Wve"/>
+                            <constraint firstItem="f5K-lp-vQX" firstAttribute="trailing" secondItem="zha-5s-KRL" secondAttribute="trailing" type="default" id="MpP-Wt-dnl"/>
+                            <constraint firstItem="IsP-kI-B5y" firstAttribute="top" secondItem="zha-5s-KRL" secondAttribute="top" type="default" id="QQz-u8-rTc"/>
+                            <constraint firstItem="IsP-kI-B5y" firstAttribute="leading" secondItem="zha-5s-KRL" secondAttribute="leading" type="default" id="Y2L-vy-lY7"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="lXV-1m-NoT" appends="YES" id="esP-g0-WkB"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="Iht-Mf-lj0"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vVm-2F-yC1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="lXV-1m-NoT">
+                    <connections>
+                        <segue destination="qVT-EZ-Qlk" kind="push" id="wOO-9d-9AT"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-18603" y="-14047"/>
+        </scene>
+        <!--Arma Concept2 View Controller-->
+        <scene sceneID="0jp-0k-NW5">
+            <objects>
+                <viewController id="qVT-EZ-Qlk" customClass="ArmaConcept2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yWC-ag-Nn1">
+                        <rect key="frame" x="0.0" y="20" width="568" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cea-h1-y5m">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="OLl-d3-ClY">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ONv-sz-Nk3"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Concept Art 2" id="8NL-vG-9zU">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="OMm-PN-VYC">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="VSL-Pf-ZsR"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Concept02.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="leW-oz-lAe">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="leW-oz-lAe" firstAttribute="bottom" secondItem="yWC-ag-Nn1" secondAttribute="bottom" type="default" id="4Er-BQ-itE"/>
+                            <constraint firstItem="Cea-h1-y5m" firstAttribute="top" secondItem="yWC-ag-Nn1" secondAttribute="top" constant="263" id="EMU-IG-I2f"/>
+                            <constraint firstItem="OLl-d3-ClY" firstAttribute="top" secondItem="yWC-ag-Nn1" secondAttribute="top" type="default" id="PAX-f6-PVf"/>
+                            <constraint firstItem="OLl-d3-ClY" firstAttribute="trailing" secondItem="yWC-ag-Nn1" secondAttribute="trailing" type="default" id="cmX-AB-GGY"/>
+                            <constraint firstItem="leW-oz-lAe" firstAttribute="top" secondItem="OLl-d3-ClY" secondAttribute="bottom" type="default" id="jpF-0t-rEr"/>
+                            <constraint firstItem="leW-oz-lAe" firstAttribute="trailing" secondItem="yWC-ag-Nn1" secondAttribute="trailing" type="default" id="lNo-s8-oBb"/>
+                            <constraint firstItem="leW-oz-lAe" firstAttribute="leading" secondItem="yWC-ag-Nn1" secondAttribute="leading" type="default" id="nbQ-NF-zck"/>
+                            <constraint firstItem="OLl-d3-ClY" firstAttribute="leading" secondItem="yWC-ag-Nn1" secondAttribute="leading" type="default" id="ras-pV-29e"/>
+                            <constraint firstItem="Cea-h1-y5m" firstAttribute="centerX" secondItem="leW-oz-lAe" secondAttribute="centerX" type="default" id="svK-Jg-eqd"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="gQH-7F-Xut" appends="YES" id="4yl-ZU-KcG"/>
+                            <outletCollection property="gestureRecognizers" destination="ukD-Pd-07T" appends="YES" id="sN1-OK-lXS"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="2Wq-Kw-FbT"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lMO-wT-fsQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="gQH-7F-Xut">
+                    <connections>
+                        <segue destination="cfQ-De-xcR" kind="push" id="NTw-25-h4v"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="ukD-Pd-07T">
+                    <connections>
+                        <segue destination="Rdi-3V-xLG" kind="push" id="Z4q-2x-gRM"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-18591" y="-13619"/>
+        </scene>
+        <!--Arma Concept3 View Controller-->
+        <scene sceneID="byD-tf-B5Q">
+            <objects>
+                <viewController id="cfQ-De-xcR" customClass="ArmaConcept3ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XRO-32-NIV">
+                        <rect key="frame" x="0.0" y="20" width="568" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkO-OK-dYg">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="Uf9-UP-KIG">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4eF-dD-I4e"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Concept Art 3" id="OGH-4r-PLh">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="2aH-Dd-Ijj">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="jxI-JN-YNQ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Concept03.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ynP-DE-gcs">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="580" id="v8R-T8-9ko"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Uf9-UP-KIG" firstAttribute="trailing" secondItem="XRO-32-NIV" secondAttribute="trailing" type="default" id="Gvg-ID-Tjt"/>
+                            <constraint firstItem="ynP-DE-gcs" firstAttribute="top" secondItem="Uf9-UP-KIG" secondAttribute="bottom" type="default" id="MLP-gQ-Z5i"/>
+                            <constraint firstItem="ynP-DE-gcs" firstAttribute="bottom" secondItem="XRO-32-NIV" secondAttribute="bottom" type="default" id="Y4f-MK-Lem"/>
+                            <constraint firstItem="Uf9-UP-KIG" firstAttribute="leading" secondItem="XRO-32-NIV" secondAttribute="leading" type="default" id="YWU-e9-rIJ"/>
+                            <constraint firstItem="Uf9-UP-KIG" firstAttribute="top" secondItem="XRO-32-NIV" secondAttribute="top" type="default" id="i9A-uU-CAZ"/>
+                            <constraint firstItem="ynP-DE-gcs" firstAttribute="leading" secondItem="XRO-32-NIV" secondAttribute="leading" constant="-5" id="oh2-Qk-JZR"/>
+                            <constraint firstItem="CkO-OK-dYg" firstAttribute="top" secondItem="XRO-32-NIV" secondAttribute="top" constant="263" id="qkh-RO-6mO"/>
+                            <constraint firstItem="Uf9-UP-KIG" firstAttribute="centerX" secondItem="CkO-OK-dYg" secondAttribute="centerX" type="default" id="uwa-MJ-VzO"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="mVg-t3-Nv7" appends="YES" id="10D-AX-xT9"/>
+                            <outletCollection property="gestureRecognizers" destination="6Ox-sz-lGW" appends="YES" id="n4N-ew-vOQ"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="FPa-0j-izm"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="05h-6k-zoc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="mVg-t3-Nv7">
+                    <connections>
+                        <segue destination="J2s-CO-Vch" kind="push" id="WAN-H1-kHu"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="6Ox-sz-lGW">
+                    <connections>
+                        <segue destination="qVT-EZ-Qlk" kind="push" id="9hB-Gc-IHi"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-17980" y="-14046"/>
+        </scene>
+        <!--Arma Concept4 View Controller-->
+        <scene sceneID="thf-gD-JWR">
+            <objects>
+                <viewController id="J2s-CO-Vch" customClass="ArmaConcept4ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ji8-jJ-lOl">
+                        <rect key="frame" x="0.0" y="20" width="568" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXN-6j-V08">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="6aM-An-bFD">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Lkj-kV-5HF"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Concept Art 4" id="jrw-pa-g1R">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="4UQ-Hv-ybT">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="ehD-mf-K1Z"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Concept04.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1Vp-fe-YFc">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6aM-An-bFD" firstAttribute="leading" secondItem="ji8-jJ-lOl" secondAttribute="leading" type="default" id="3ok-F1-OUU"/>
+                            <constraint firstItem="6aM-An-bFD" firstAttribute="trailing" secondItem="ji8-jJ-lOl" secondAttribute="trailing" type="default" id="761-w3-8fc"/>
+                            <constraint firstItem="kXN-6j-V08" firstAttribute="top" secondItem="ji8-jJ-lOl" secondAttribute="top" constant="263" id="KJv-GA-ZGj"/>
+                            <constraint firstItem="6aM-An-bFD" firstAttribute="top" secondItem="ji8-jJ-lOl" secondAttribute="top" type="default" id="VGe-CW-9lu"/>
+                            <constraint firstItem="1Vp-fe-YFc" firstAttribute="bottom" secondItem="ji8-jJ-lOl" secondAttribute="bottom" type="default" id="Ybm-jp-53i"/>
+                            <constraint firstItem="1Vp-fe-YFc" firstAttribute="trailing" secondItem="ji8-jJ-lOl" secondAttribute="trailing" type="default" id="Yl2-5s-jOk"/>
+                            <constraint firstItem="kXN-6j-V08" firstAttribute="centerX" secondItem="1Vp-fe-YFc" secondAttribute="centerX" type="default" id="df6-Bd-8iU"/>
+                            <constraint firstItem="1Vp-fe-YFc" firstAttribute="top" secondItem="6aM-An-bFD" secondAttribute="bottom" type="default" id="lXI-gy-mkb"/>
+                            <constraint firstItem="1Vp-fe-YFc" firstAttribute="leading" secondItem="ji8-jJ-lOl" secondAttribute="leading" type="default" id="mmg-FO-nvD"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Fh2-gb-RFn" appends="YES" id="XmZ-7a-3Mg"/>
+                            <outletCollection property="gestureRecognizers" destination="0ac-OX-InE" appends="YES" id="V5N-F9-2Dh"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="VGi-Mr-lDG"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zKh-Le-YGp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="Fh2-gb-RFn">
+                    <connections>
+                        <segue destination="pGb-3W-LAE" kind="push" id="ShT-NI-btH"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="0ac-OX-InE">
+                    <connections>
+                        <segue destination="cfQ-De-xcR" kind="push" id="Ne3-Fb-Sve"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-17975" y="-13611"/>
+        </scene>
+        <!--Arma Concept5 View Controller-->
+        <scene sceneID="mVj-Yy-MOG">
+            <objects>
+                <viewController id="pGb-3W-LAE" customClass="ArmaConcept5ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nNZ-wa-u7J">
+                        <rect key="frame" x="0.0" y="20" width="568" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4p-cI-dpm">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="YaP-OY-gVy">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4ld-X3-Pzo"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Concept Art 5" id="0de-cD-aXk">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Vhl-cL-Yxl">
+                                            <connections>
+                                                <segue destination="Cfm-E4-koY" kind="modal" id="6yB-CE-g3r"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Concept05.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="hDY-nb-Msb">
+                                <color key="backgroundColor" red="0.031372550870000002" green="0.058823533359999999" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="573" id="F7X-RT-Vv9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="YaP-OY-gVy" firstAttribute="leading" secondItem="nNZ-wa-u7J" secondAttribute="leading" type="default" id="3Qj-1a-1od"/>
+                            <constraint firstItem="hDY-nb-Msb" firstAttribute="top" secondItem="YaP-OY-gVy" secondAttribute="bottom" type="default" id="C5w-Kn-4lM"/>
+                            <constraint firstItem="YaP-OY-gVy" firstAttribute="trailing" secondItem="nNZ-wa-u7J" secondAttribute="trailing" type="default" id="Fwe-x9-DvO"/>
+                            <constraint firstItem="YaP-OY-gVy" firstAttribute="centerX" secondItem="l4p-cI-dpm" secondAttribute="centerX" type="default" id="OSK-8f-shL"/>
+                            <constraint firstItem="YaP-OY-gVy" firstAttribute="top" secondItem="nNZ-wa-u7J" secondAttribute="top" type="default" id="YRx-ED-WbT"/>
+                            <constraint firstItem="l4p-cI-dpm" firstAttribute="top" secondItem="nNZ-wa-u7J" secondAttribute="top" constant="263" id="fMP-lK-IhS"/>
+                            <constraint firstItem="hDY-nb-Msb" firstAttribute="leading" secondItem="nNZ-wa-u7J" secondAttribute="leading" type="default" id="gES-Lo-9Su"/>
+                            <constraint firstItem="hDY-nb-Msb" firstAttribute="bottom" secondItem="nNZ-wa-u7J" secondAttribute="bottom" type="default" id="iDR-CS-Nlf"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="66o-50-YpT" appends="YES" id="zkf-iN-fiV"/>
+                            <outletCollection property="gestureRecognizers" destination="jWa-gn-s2c" appends="YES" id="lIc-Ic-LNx"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="YBo-3q-xKz"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tGF-Gn-lj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="66o-50-YpT"/>
+                <swipeGestureRecognizer direction="right" id="jWa-gn-s2c">
+                    <connections>
+                        <segue destination="J2s-CO-Vch" kind="push" id="WFB-mi-Kh2"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-17377" y="-14046"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ARMA_Logo.png" width="271" height="73"/>
+        <image name="Concept01.jpg" width="2377" height="1500"/>
+        <image name="Concept02.JPG" width="4275" height="1709"/>
+        <image name="Concept03.jpg" width="5930" height="1532"/>
+        <image name="Concept04.jpg" width="1434" height="1000"/>
+        <image name="Concept05.JPG" width="4217" height="3215"/>
+        <image name="button01.png" width="175" height="36"/>
+        <image name="button02.png" width="175" height="36"/>
+        <image name="button03.png" width="175" height="36"/>
+        <image name="button04.png" width="175" height="36"/>
+        <image name="comic01.jpg" width="1988" height="3056"/>
+        <image name="comic02.jpg" width="1988" height="3056"/>
+        <image name="comic03.jpg" width="3976" height="3056"/>
+        <image name="comic04.jpg" width="1988" height="3056"/>
+        <image name="comic05.jpg" width="1988" height="3056"/>
+        <image name="ebutton01.png" width="176" height="36"/>
+        <image name="ebutton02.png" width="176" height="36"/>
+        <image name="ebutton03.png" width="176" height="36"/>
+        <image name="iPad_BG01.jpg" width="1024" height="768"/>
+        <image name="iPad_BG02.jpg" width="1024" height="768"/>
+        <image name="toy01.jpg" width="640" height="960"/>
+        <image name="toy02.jpg" width="640" height="960"/>
+        <image name="toy03.jpg" width="640" height="960"/>
+        <image name="toy04.jpg" width="640" height="960"/>
+        <image name="toy05.jpg" width="640" height="960"/>
+    </resources>
+    <classes>
+        <class className="ArmaComic1ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaComic1ViewController.h"/>
+        </class>
+        <class className="ArmaComic2ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaComic2ViewController.h"/>
+        </class>
+        <class className="ArmaComic3ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaComic3ViewController.h"/>
+        </class>
+        <class className="ArmaComic4ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaComic4ViewController.h"/>
+        </class>
+        <class className="ArmaComic5ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaComic5ViewController.h"/>
+        </class>
+        <class className="ArmaConcept1ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaConcept1ViewController.h"/>
+        </class>
+        <class className="ArmaConcept2ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaConcept2ViewController.h"/>
+        </class>
+        <class className="ArmaConcept3ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaConcept3ViewController.h"/>
+        </class>
+        <class className="ArmaConcept4ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaConcept4ViewController.h"/>
+        </class>
+        <class className="ArmaConcept5ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaConcept5ViewController.h"/>
+        </class>
+        <class className="ArmaExtrasViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaExtrasViewController.h"/>
+        </class>
+        <class className="ArmaHubAppViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaHubAppViewController.h"/>
+        </class>
+        <class className="ArmaToy01ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaToy01ViewController.h"/>
+        </class>
+        <class className="ArmaToy02ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaToy02ViewController.h"/>
+        </class>
+        <class className="ArmaToy03ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaToy03ViewController.h"/>
+        </class>
+        <class className="ArmaToy04ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaToy04ViewController.h"/>
+        </class>
+        <class className="ArmaToy05ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaToy05ViewController.h"/>
+        </class>
+        <class className="ArmaTwitter1ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaTwitter1ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="btnArmauraders:"/>
+                <relationship kind="action" name="btnMecha:"/>
+                <relationship kind="outlet" name="webview" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="ArmaTwitterViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaTwitterViewController.h"/>
+        </class>
+        <class className="ArmaVideoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ArmaVideoViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="NmX-Hi-BzD"/>
+        <segue reference="EJO-43-86O"/>
+        <segue reference="fNU-9H-pQa"/>
+        <segue reference="G3Z-rU-Vqt"/>
+        <segue reference="NTw-25-h4v"/>
+        <segue reference="wOO-9d-9AT"/>
+        <segue reference="V2P-0j-S4a"/>
+        <segue reference="pfV-Eg-TiG"/>
+        <segue reference="9jB-EZ-Oh9"/>
+        <segue reference="WzV-H8-Zai"/>
+        <segue reference="c3L-CR-cU4"/>
+        <segue reference="7pr-RN-9DP"/>
+        <segue reference="WFB-mi-Kh2"/>
+        <segue reference="6JC-XK-7fl"/>
+    </inferredMetricsTieBreakers>
+</document>

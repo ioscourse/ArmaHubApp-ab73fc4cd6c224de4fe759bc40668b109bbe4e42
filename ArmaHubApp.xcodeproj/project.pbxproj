@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570F13921731944500BE4C21 /* movie1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 570F13901731944500BE4C21 /* movie1.mp4 */; };
+		570F13931731944500BE4C21 /* ARMA_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 570F13911731944500BE4C21 /* ARMA_Logo.png */; };
+		570F13971731954100BE4C21 /* ArmaVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F13961731954100BE4C21 /* ArmaVideoViewController.m */; };
+		570F13991731967C00BE4C21 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570F13981731967B00BE4C21 /* MediaPlayer.framework */; };
+		571BEF571731824000EC43D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571BEF561731824000EC43D1 /* UIKit.framework */; };
+		571BEF591731824000EC43D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571BEF581731824000EC43D1 /* Foundation.framework */; };
+		571BEF5B1731824000EC43D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571BEF5A1731824000EC43D1 /* CoreGraphics.framework */; };
+		571BEF611731824000EC43D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF5F1731824000EC43D1 /* InfoPlist.strings */; };
+		571BEF631731824000EC43D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571BEF621731824000EC43D1 /* main.m */; };
+		571BEF671731824000EC43D1 /* ArmaHubAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571BEF661731824000EC43D1 /* ArmaHubAppAppDelegate.m */; };
+		571BEF691731824000EC43D1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF681731824000EC43D1 /* Default.png */; };
+		571BEF6B1731824000EC43D1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF6A1731824000EC43D1 /* Default@2x.png */; };
+		571BEF6D1731824000EC43D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF6C1731824000EC43D1 /* Default-568h@2x.png */; };
+		571BEF701731824000EC43D1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF6E1731824000EC43D1 /* MainStoryboard.storyboard */; };
+		571BEF731731824000EC43D1 /* ArmaHubAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571BEF721731824000EC43D1 /* ArmaHubAppViewController.m */; };
+		571BEF7A173182AF00EC43D1 /* ARMA_BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF79173182AF00EC43D1 /* ARMA_BG.jpg */; };
+		571BEF80173183DD00EC43D1 /* button01.png in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF7C173183DD00EC43D1 /* button01.png */; };
+		571BEF81173183DD00EC43D1 /* button02.png in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF7D173183DD00EC43D1 /* button02.png */; };
+		571BEF82173183DD00EC43D1 /* button03.png in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF7E173183DD00EC43D1 /* button03.png */; };
+		571BEF83173183DD00EC43D1 /* button04.png in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF7F173183DD00EC43D1 /* button04.png */; };
+		571BEF87173184D400EC43D1 /* ArmaComic1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571BEF86173184D400EC43D1 /* ArmaComic1ViewController.m */; };
+		571BEF901731865500EC43D1 /* comic01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF891731865500EC43D1 /* comic01.jpg */; };
+		571BEF911731865500EC43D1 /* comic02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF8A1731865500EC43D1 /* comic02.jpg */; };
+		571BEF921731865500EC43D1 /* comic03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF8B1731865500EC43D1 /* comic03.jpg */; };
+		571BEF931731865500EC43D1 /* comic04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF8C1731865500EC43D1 /* comic04.jpg */; };
+		571BEF941731865500EC43D1 /* comic05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF8D1731865500EC43D1 /* comic05.jpg */; };
+		571BEF951731865500EC43D1 /* comic06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF8E1731865500EC43D1 /* comic06.jpg */; };
+		571BEF961731865500EC43D1 /* comic07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571BEF8F1731865500EC43D1 /* comic07.jpg */; };
+		571BEF99173187E800EC43D1 /* ArmaComic2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571BEF98173187E800EC43D1 /* ArmaComic2ViewController.m */; };
+		571BEF9C17318D4600EC43D1 /* ArmaComic3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571BEF9B17318D4600EC43D1 /* ArmaComic3ViewController.m */; };
+		573B70351731DADC005D60E3 /* ArmaComic4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573B70341731DADC005D60E3 /* ArmaComic4ViewController.m */; };
+		5760F1F017383059001902D8 /* iPad_BG01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5760F1EF17383059001902D8 /* iPad_BG01.jpg */; };
+		5760F1F417383309001902D8 /* ebutton03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5760F1F117383309001902D8 /* ebutton03.png */; };
+		5760F1F517383309001902D8 /* ebutton02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5760F1F217383309001902D8 /* ebutton02.png */; };
+		5760F1F617383309001902D8 /* ebutton01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5760F1F317383309001902D8 /* ebutton01.png */; };
+		5760F1F9173833D1001902D8 /* iPad_BG03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5760F1F7173833D1001902D8 /* iPad_BG03.jpg */; };
+		5760F1FA173833D1001902D8 /* iPad_BG02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5760F1F8173833D1001902D8 /* iPad_BG02.jpg */; };
+		576B174D17373FDE0026E305 /* ArmaExtrasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B174C17373FDE0026E305 /* ArmaExtrasViewController.m */; };
+		576B1752173742250026E305 /* ArmaConcept1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B1751173742250026E305 /* ArmaConcept1ViewController.m */; };
+		576B176017374B550026E305 /* toy01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175417374B550026E305 /* toy01.jpg */; };
+		576B176117374B550026E305 /* toy02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175517374B550026E305 /* toy02.jpg */; };
+		576B176217374B550026E305 /* toy03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175617374B550026E305 /* toy03.jpg */; };
+		576B176317374B550026E305 /* toy04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175717374B550026E305 /* toy04.jpg */; };
+		576B176417374B550026E305 /* toy05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175817374B550026E305 /* toy05.jpg */; };
+		576B176517374B550026E305 /* toy06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175917374B550026E305 /* toy06.jpg */; };
+		576B176617374B550026E305 /* toy07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175A17374B550026E305 /* toy07.jpg */; };
+		576B176717374B550026E305 /* toy08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175B17374B550026E305 /* toy08.jpg */; };
+		576B176817374B550026E305 /* toy09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175C17374B550026E305 /* toy09.jpg */; };
+		576B176917374B550026E305 /* toy10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175D17374B550026E305 /* toy10.jpg */; };
+		576B176A17374B550026E305 /* toy11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175E17374B550026E305 /* toy11.jpg */; };
+		576B176B17374B550026E305 /* toy12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B175F17374B550026E305 /* toy12.jpg */; };
+		576B176E17374F5B0026E305 /* ArmaToy01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B176D17374F5B0026E305 /* ArmaToy01ViewController.m */; };
+		576B1771173751050026E305 /* ArmaToy02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B1770173751050026E305 /* ArmaToy02ViewController.m */; };
+		576B1774173751300026E305 /* ArmaToy03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B1773173751300026E305 /* ArmaToy03ViewController.m */; };
+		577C9BE6173335BF00AF6B70 /* ArmaTwitter1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577C9BE5173335BF00AF6B70 /* ArmaTwitter1ViewController.m */; };
+		577C9BE917333F9100AF6B70 /* ArmaComic5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577C9BE817333F9100AF6B70 /* ArmaComic5ViewController.m */; };
+		57D633C41733303E00EF82CE /* ArmaTwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D633C31733303E00EF82CE /* ArmaTwitterViewController.m */; };
+		57E1C8B91737618B00BBDAC9 /* ArmaToy04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1C8B81737618B00BBDAC9 /* ArmaToy04ViewController.m */; };
+		57E1C8BC1737631100BBDAC9 /* ArmaToy05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1C8BB1737631100BBDAC9 /* ArmaToy05ViewController.m */; };
+		57E1C8C51737660D00BBDAC9 /* Concept01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57E1C8BE1737660D00BBDAC9 /* Concept01.jpg */; };
+		57E1C8C61737660D00BBDAC9 /* Concept02.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 57E1C8BF1737660D00BBDAC9 /* Concept02.JPG */; };
+		57E1C8C71737660D00BBDAC9 /* Concept03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57E1C8C01737660D00BBDAC9 /* Concept03.jpg */; };
+		57E1C8C81737660D00BBDAC9 /* Concept04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57E1C8C11737660D00BBDAC9 /* Concept04.jpg */; };
+		57E1C8C91737660D00BBDAC9 /* Concept05.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 57E1C8C21737660D00BBDAC9 /* Concept05.JPG */; };
+		57E1C8CA1737660D00BBDAC9 /* Concept06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57E1C8C31737660D00BBDAC9 /* Concept06.jpg */; };
+		57E1C8CB1737660D00BBDAC9 /* Concept07.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 57E1C8C41737660D00BBDAC9 /* Concept07.JPG */; };
+		57E1C8CE1737669900BBDAC9 /* ArmaConcept2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1C8CD1737669900BBDAC9 /* ArmaConcept2ViewController.m */; };
+		57E1C8D1173766A800BBDAC9 /* ArmaConcept3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1C8D0173766A800BBDAC9 /* ArmaConcept3ViewController.m */; };
+		57E1C8D4173766C100BBDAC9 /* ArmaConcept4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1C8D3173766C100BBDAC9 /* ArmaConcept4ViewController.m */; };
+		57E1C8D7173766D300BBDAC9 /* ArmaConcept5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1C8D6173766D300BBDAC9 /* ArmaConcept5ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		570F13901731944500BE4C21 /* movie1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie1.mp4; sourceTree = "<group>"; };
+		570F13911731944500BE4C21 /* ARMA_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARMA_Logo.png; sourceTree = "<group>"; };
+		570F13951731954100BE4C21 /* ArmaVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaVideoViewController.h; sourceTree = "<group>"; };
+		570F13961731954100BE4C21 /* ArmaVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaVideoViewController.m; sourceTree = "<group>"; };
+		570F13981731967B00BE4C21 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		571BEF531731824000EC43D1 /* ArmaHubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArmaHubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571BEF561731824000EC43D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		571BEF581731824000EC43D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		571BEF5A1731824000EC43D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		571BEF5E1731824000EC43D1 /* ArmaHubApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArmaHubApp-Info.plist"; sourceTree = "<group>"; };
+		571BEF601731824000EC43D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		571BEF621731824000EC43D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		571BEF641731824000EC43D1 /* ArmaHubApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArmaHubApp-Prefix.pch"; sourceTree = "<group>"; };
+		571BEF651731824000EC43D1 /* ArmaHubAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArmaHubAppAppDelegate.h; sourceTree = "<group>"; };
+		571BEF661731824000EC43D1 /* ArmaHubAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArmaHubAppAppDelegate.m; sourceTree = "<group>"; };
+		571BEF681731824000EC43D1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		571BEF6A1731824000EC43D1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		571BEF6C1731824000EC43D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		571BEF6F1731824000EC43D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		571BEF711731824000EC43D1 /* ArmaHubAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArmaHubAppViewController.h; sourceTree = "<group>"; };
+		571BEF721731824000EC43D1 /* ArmaHubAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArmaHubAppViewController.m; sourceTree = "<group>"; };
+		571BEF79173182AF00EC43D1 /* ARMA_BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ARMA_BG.jpg; sourceTree = "<group>"; };
+		571BEF7C173183DD00EC43D1 /* button01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button01.png; sourceTree = "<group>"; };
+		571BEF7D173183DD00EC43D1 /* button02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button02.png; sourceTree = "<group>"; };
+		571BEF7E173183DD00EC43D1 /* button03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button03.png; sourceTree = "<group>"; };
+		571BEF7F173183DD00EC43D1 /* button04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button04.png; sourceTree = "<group>"; };
+		571BEF85173184D400EC43D1 /* ArmaComic1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaComic1ViewController.h; sourceTree = "<group>"; };
+		571BEF86173184D400EC43D1 /* ArmaComic1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaComic1ViewController.m; sourceTree = "<group>"; };
+		571BEF891731865500EC43D1 /* comic01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic01.jpg; sourceTree = "<group>"; };
+		571BEF8A1731865500EC43D1 /* comic02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic02.jpg; sourceTree = "<group>"; };
+		571BEF8B1731865500EC43D1 /* comic03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic03.jpg; sourceTree = "<group>"; };
+		571BEF8C1731865500EC43D1 /* comic04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic04.jpg; sourceTree = "<group>"; };
+		571BEF8D1731865500EC43D1 /* comic05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic05.jpg; sourceTree = "<group>"; };
+		571BEF8E1731865500EC43D1 /* comic06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic06.jpg; sourceTree = "<group>"; };
+		571BEF8F1731865500EC43D1 /* comic07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic07.jpg; sourceTree = "<group>"; };
+		571BEF97173187E800EC43D1 /* ArmaComic2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaComic2ViewController.h; sourceTree = "<group>"; };
+		571BEF98173187E800EC43D1 /* ArmaComic2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaComic2ViewController.m; sourceTree = "<group>"; };
+		571BEF9A17318D4600EC43D1 /* ArmaComic3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaComic3ViewController.h; sourceTree = "<group>"; };
+		571BEF9B17318D4600EC43D1 /* ArmaComic3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaComic3ViewController.m; sourceTree = "<group>"; };
+		573B70331731DADC005D60E3 /* ArmaComic4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaComic4ViewController.h; sourceTree = "<group>"; };
+		573B70341731DADC005D60E3 /* ArmaComic4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaComic4ViewController.m; sourceTree = "<group>"; };
+		5760F1EF17383059001902D8 /* iPad_BG01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPad_BG01.jpg; sourceTree = "<group>"; };
+		5760F1F117383309001902D8 /* ebutton03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ebutton03.png; sourceTree = "<group>"; };
+		5760F1F217383309001902D8 /* ebutton02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ebutton02.png; sourceTree = "<group>"; };
+		5760F1F317383309001902D8 /* ebutton01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ebutton01.png; sourceTree = "<group>"; };
+		5760F1F7173833D1001902D8 /* iPad_BG03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPad_BG03.jpg; sourceTree = "<group>"; };
+		5760F1F8173833D1001902D8 /* iPad_BG02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPad_BG02.jpg; sourceTree = "<group>"; };
+		576B174B17373FDE0026E305 /* ArmaExtrasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaExtrasViewController.h; sourceTree = "<group>"; };
+		576B174C17373FDE0026E305 /* ArmaExtrasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaExtrasViewController.m; sourceTree = "<group>"; };
+		576B1750173742250026E305 /* ArmaConcept1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArmaConcept1ViewController.h; path = Concepts/ArmaConcept1ViewController.h; sourceTree = "<group>"; };
+		576B1751173742250026E305 /* ArmaConcept1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArmaConcept1ViewController.m; path = Concepts/ArmaConcept1ViewController.m; sourceTree = "<group>"; };
+		576B175417374B550026E305 /* toy01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy01.jpg; sourceTree = "<group>"; };
+		576B175517374B550026E305 /* toy02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy02.jpg; sourceTree = "<group>"; };
+		576B175617374B550026E305 /* toy03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy03.jpg; sourceTree = "<group>"; };
+		576B175717374B550026E305 /* toy04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy04.jpg; sourceTree = "<group>"; };
+		576B175817374B550026E305 /* toy05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy05.jpg; sourceTree = "<group>"; };
+		576B175917374B550026E305 /* toy06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy06.jpg; sourceTree = "<group>"; };
+		576B175A17374B550026E305 /* toy07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy07.jpg; sourceTree = "<group>"; };
+		576B175B17374B550026E305 /* toy08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy08.jpg; sourceTree = "<group>"; };
+		576B175C17374B550026E305 /* toy09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy09.jpg; sourceTree = "<group>"; };
+		576B175D17374B550026E305 /* toy10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy10.jpg; sourceTree = "<group>"; };
+		576B175E17374B550026E305 /* toy11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy11.jpg; sourceTree = "<group>"; };
+		576B175F17374B550026E305 /* toy12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy12.jpg; sourceTree = "<group>"; };
+		576B176C17374F5B0026E305 /* ArmaToy01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArmaToy01ViewController.h; path = Concepts/ArmaToy01ViewController.h; sourceTree = "<group>"; };
+		576B176D17374F5B0026E305 /* ArmaToy01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArmaToy01ViewController.m; path = Concepts/ArmaToy01ViewController.m; sourceTree = "<group>"; };
+		576B176F173751050026E305 /* ArmaToy02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArmaToy02ViewController.h; path = Concepts/ArmaToy02ViewController.h; sourceTree = "<group>"; };
+		576B1770173751050026E305 /* ArmaToy02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArmaToy02ViewController.m; path = Concepts/ArmaToy02ViewController.m; sourceTree = "<group>"; };
+		576B1772173751300026E305 /* ArmaToy03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaToy03ViewController.h; sourceTree = "<group>"; };
+		576B1773173751300026E305 /* ArmaToy03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaToy03ViewController.m; sourceTree = "<group>"; };
+		577C9BE4173335BF00AF6B70 /* ArmaTwitter1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaTwitter1ViewController.h; sourceTree = "<group>"; };
+		577C9BE5173335BF00AF6B70 /* ArmaTwitter1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaTwitter1ViewController.m; sourceTree = "<group>"; };
+		577C9BE717333F9100AF6B70 /* ArmaComic5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaComic5ViewController.h; sourceTree = "<group>"; };
+		577C9BE817333F9100AF6B70 /* ArmaComic5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaComic5ViewController.m; sourceTree = "<group>"; };
+		57D633C21733303E00EF82CE /* ArmaTwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaTwitterViewController.h; sourceTree = "<group>"; };
+		57D633C31733303E00EF82CE /* ArmaTwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaTwitterViewController.m; sourceTree = "<group>"; };
+		57E1C8B71737618B00BBDAC9 /* ArmaToy04ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaToy04ViewController.h; sourceTree = "<group>"; };
+		57E1C8B81737618B00BBDAC9 /* ArmaToy04ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaToy04ViewController.m; sourceTree = "<group>"; };
+		57E1C8BA1737631100BBDAC9 /* ArmaToy05ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaToy05ViewController.h; sourceTree = "<group>"; };
+		57E1C8BB1737631100BBDAC9 /* ArmaToy05ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaToy05ViewController.m; sourceTree = "<group>"; };
+		57E1C8BE1737660D00BBDAC9 /* Concept01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concept01.jpg; sourceTree = "<group>"; };
+		57E1C8BF1737660D00BBDAC9 /* Concept02.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concept02.JPG; sourceTree = "<group>"; };
+		57E1C8C01737660D00BBDAC9 /* Concept03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concept03.jpg; sourceTree = "<group>"; };
+		57E1C8C11737660D00BBDAC9 /* Concept04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concept04.jpg; sourceTree = "<group>"; };
+		57E1C8C21737660D00BBDAC9 /* Concept05.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concept05.JPG; sourceTree = "<group>"; };
+		57E1C8C31737660D00BBDAC9 /* Concept06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concept06.jpg; sourceTree = "<group>"; };
+		57E1C8C41737660D00BBDAC9 /* Concept07.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Concept07.JPG; sourceTree = "<group>"; };
+		57E1C8CC1737669900BBDAC9 /* ArmaConcept2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArmaConcept2ViewController.h; path = Concepts/ArmaConcept2ViewController.h; sourceTree = "<group>"; };
+		57E1C8CD1737669900BBDAC9 /* ArmaConcept2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArmaConcept2ViewController.m; path = Concepts/ArmaConcept2ViewController.m; sourceTree = "<group>"; };
+		57E1C8CF173766A800BBDAC9 /* ArmaConcept3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaConcept3ViewController.h; sourceTree = "<group>"; };
+		57E1C8D0173766A800BBDAC9 /* ArmaConcept3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaConcept3ViewController.m; sourceTree = "<group>"; };
+		57E1C8D2173766C100BBDAC9 /* ArmaConcept4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArmaConcept4ViewController.h; path = Concepts/ArmaConcept4ViewController.h; sourceTree = "<group>"; };
+		57E1C8D3173766C100BBDAC9 /* ArmaConcept4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArmaConcept4ViewController.m; path = Concepts/ArmaConcept4ViewController.m; sourceTree = "<group>"; };
+		57E1C8D5173766D300BBDAC9 /* ArmaConcept5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArmaConcept5ViewController.h; path = Concepts/ArmaConcept5ViewController.h; sourceTree = "<group>"; };
+		57E1C8D6173766D300BBDAC9 /* ArmaConcept5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArmaConcept5ViewController.m; path = Concepts/ArmaConcept5ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571BEF501731824000EC43D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570F13991731967C00BE4C21 /* MediaPlayer.framework in Frameworks */,
+				571BEF571731824000EC43D1 /* UIKit.framework in Frameworks */,
+				571BEF591731824000EC43D1 /* Foundation.framework in Frameworks */,
+				571BEF5B1731824000EC43D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		570F13941731951F00BE4C21 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				570F13951731954100BE4C21 /* ArmaVideoViewController.h */,
+				570F13961731954100BE4C21 /* ArmaVideoViewController.m */,
+			);
+			name = Movie;
+			sourceTree = "<group>";
+		};
+		571BEF4A1731823F00EC43D1 = {
+			isa = PBXGroup;
+			children = (
+				576B174A17373FBD0026E305 /* Extras */,
+				57D6339F173326F500EF82CE /* NewsFeed */,
+				570F13941731951F00BE4C21 /* Movie */,
+				571BEF84173184B000EC43D1 /* Comic */,
+				571BEF5C1731824000EC43D1 /* ArmaHubApp */,
+				571BEF551731824000EC43D1 /* Frameworks */,
+				571BEF541731824000EC43D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571BEF541731824000EC43D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571BEF531731824000EC43D1 /* ArmaHubApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571BEF551731824000EC43D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				570F13981731967B00BE4C21 /* MediaPlayer.framework */,
+				571BEF561731824000EC43D1 /* UIKit.framework */,
+				571BEF581731824000EC43D1 /* Foundation.framework */,
+				571BEF5A1731824000EC43D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		571BEF5C1731824000EC43D1 /* ArmaHubApp */ = {
+			isa = PBXGroup;
+			children = (
+				571BEF651731824000EC43D1 /* ArmaHubAppAppDelegate.h */,
+				571BEF661731824000EC43D1 /* ArmaHubAppAppDelegate.m */,
+				571BEF6E1731824000EC43D1 /* MainStoryboard.storyboard */,
+				571BEF711731824000EC43D1 /* ArmaHubAppViewController.h */,
+				571BEF721731824000EC43D1 /* ArmaHubAppViewController.m */,
+				571BEF5D1731824000EC43D1 /* Supporting Files */,
+			);
+			path = ArmaHubApp;
+			sourceTree = "<group>";
+		};
+		571BEF5D1731824000EC43D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5760F1F7173833D1001902D8 /* iPad_BG03.jpg */,
+				5760F1F8173833D1001902D8 /* iPad_BG02.jpg */,
+				5760F1EF17383059001902D8 /* iPad_BG01.jpg */,
+				57E1C8BD173765FB00BBDAC9 /* Concept */,
+				576B1753173749E90026E305 /* Toys */,
+				570F13901731944500BE4C21 /* movie1.mp4 */,
+				570F13911731944500BE4C21 /* ARMA_Logo.png */,
+				571BEF881731863700EC43D1 /* Comic Pages */,
+				571BEF7B173183BC00EC43D1 /* Buttons */,
+				571BEF79173182AF00EC43D1 /* ARMA_BG.jpg */,
+				571BEF5E1731824000EC43D1 /* ArmaHubApp-Info.plist */,
+				571BEF5F1731824000EC43D1 /* InfoPlist.strings */,
+				571BEF621731824000EC43D1 /* main.m */,
+				571BEF641731824000EC43D1 /* ArmaHubApp-Prefix.pch */,
+				571BEF681731824000EC43D1 /* Default.png */,
+				571BEF6A1731824000EC43D1 /* Default@2x.png */,
+				571BEF6C1731824000EC43D1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		571BEF7B173183BC00EC43D1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5760F1F117383309001902D8 /* ebutton03.png */,
+				5760F1F217383309001902D8 /* ebutton02.png */,
+				5760F1F317383309001902D8 /* ebutton01.png */,
+				571BEF7C173183DD00EC43D1 /* button01.png */,
+				571BEF7D173183DD00EC43D1 /* button02.png */,
+				571BEF7E173183DD00EC43D1 /* button03.png */,
+				571BEF7F173183DD00EC43D1 /* button04.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		571BEF84173184B000EC43D1 /* Comic */ = {
+			isa = PBXGroup;
+			children = (
+				571BEF85173184D400EC43D1 /* ArmaComic1ViewController.h */,
+				571BEF86173184D400EC43D1 /* ArmaComic1ViewController.m */,
+				571BEF97173187E800EC43D1 /* ArmaComic2ViewController.h */,
+				571BEF98173187E800EC43D1 /* ArmaComic2ViewController.m */,
+				571BEF9A17318D4600EC43D1 /* ArmaComic3ViewController.h */,
+				571BEF9B17318D4600EC43D1 /* ArmaComic3ViewController.m */,
+				573B70331731DADC005D60E3 /* ArmaComic4ViewController.h */,
+				573B70341731DADC005D60E3 /* ArmaComic4ViewController.m */,
+				577C9BE717333F9100AF6B70 /* ArmaComic5ViewController.h */,
+				577C9BE817333F9100AF6B70 /* ArmaComic5ViewController.m */,
+			);
+			name = Comic;
+			sourceTree = "<group>";
+		};
+		571BEF881731863700EC43D1 /* Comic Pages */ = {
+			isa = PBXGroup;
+			children = (
+				571BEF891731865500EC43D1 /* comic01.jpg */,
+				571BEF8A1731865500EC43D1 /* comic02.jpg */,
+				571BEF8B1731865500EC43D1 /* comic03.jpg */,
+				571BEF8C1731865500EC43D1 /* comic04.jpg */,
+				571BEF8D1731865500EC43D1 /* comic05.jpg */,
+				571BEF8E1731865500EC43D1 /* comic06.jpg */,
+				571BEF8F1731865500EC43D1 /* comic07.jpg */,
+			);
+			name = "Comic Pages";
+			sourceTree = "<group>";
+		};
+		576B174A17373FBD0026E305 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				576B174F173740050026E305 /* Toys */,
+				576B174E17373FF90026E305 /* Concepts */,
+				576B174B17373FDE0026E305 /* ArmaExtrasViewController.h */,
+				576B174C17373FDE0026E305 /* ArmaExtrasViewController.m */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		576B174E17373FF90026E305 /* Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				576B1750173742250026E305 /* ArmaConcept1ViewController.h */,
+				576B1751173742250026E305 /* ArmaConcept1ViewController.m */,
+				57E1C8CC1737669900BBDAC9 /* ArmaConcept2ViewController.h */,
+				57E1C8CD1737669900BBDAC9 /* ArmaConcept2ViewController.m */,
+				57E1C8CF173766A800BBDAC9 /* ArmaConcept3ViewController.h */,
+				57E1C8D0173766A800BBDAC9 /* ArmaConcept3ViewController.m */,
+				57E1C8D2173766C100BBDAC9 /* ArmaConcept4ViewController.h */,
+				57E1C8D3173766C100BBDAC9 /* ArmaConcept4ViewController.m */,
+				57E1C8D5173766D300BBDAC9 /* ArmaConcept5ViewController.h */,
+				57E1C8D6173766D300BBDAC9 /* ArmaConcept5ViewController.m */,
+			);
+			name = Concepts;
+			sourceTree = "<group>";
+		};
+		576B174F173740050026E305 /* Toys */ = {
+			isa = PBXGroup;
+			children = (
+				576B176C17374F5B0026E305 /* ArmaToy01ViewController.h */,
+				576B176D17374F5B0026E305 /* ArmaToy01ViewController.m */,
+				576B176F173751050026E305 /* ArmaToy02ViewController.h */,
+				576B1770173751050026E305 /* ArmaToy02ViewController.m */,
+				576B1772173751300026E305 /* ArmaToy03ViewController.h */,
+				576B1773173751300026E305 /* ArmaToy03ViewController.m */,
+				57E1C8B71737618B00BBDAC9 /* ArmaToy04ViewController.h */,
+				57E1C8B81737618B00BBDAC9 /* ArmaToy04ViewController.m */,
+				57E1C8BA1737631100BBDAC9 /* ArmaToy05ViewController.h */,
+				57E1C8BB1737631100BBDAC9 /* ArmaToy05ViewController.m */,
+			);
+			name = Toys;
+			sourceTree = "<group>";
+		};
+		576B1753173749E90026E305 /* Toys */ = {
+			isa = PBXGroup;
+			children = (
+				576B175417374B550026E305 /* toy01.jpg */,
+				576B175517374B550026E305 /* toy02.jpg */,
+				576B175617374B550026E305 /* toy03.jpg */,
+				576B175717374B550026E305 /* toy04.jpg */,
+				576B175817374B550026E305 /* toy05.jpg */,
+				576B175917374B550026E305 /* toy06.jpg */,
+				576B175A17374B550026E305 /* toy07.jpg */,
+				576B175B17374B550026E305 /* toy08.jpg */,
+				576B175C17374B550026E305 /* toy09.jpg */,
+				576B175D17374B550026E305 /* toy10.jpg */,
+				576B175E17374B550026E305 /* toy11.jpg */,
+				576B175F17374B550026E305 /* toy12.jpg */,
+			);
+			name = Toys;
+			sourceTree = "<group>";
+		};
+		57D6339F173326F500EF82CE /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				57D633C21733303E00EF82CE /* ArmaTwitterViewController.h */,
+				57D633C31733303E00EF82CE /* ArmaTwitterViewController.m */,
+				577C9BE4173335BF00AF6B70 /* ArmaTwitter1ViewController.h */,
+				577C9BE5173335BF00AF6B70 /* ArmaTwitter1ViewController.m */,
+			);
+			name = NewsFeed;
+			sourceTree = "<group>";
+		};
+		57E1C8BD173765FB00BBDAC9 /* Concept */ = {
+			isa = PBXGroup;
+			children = (
+				57E1C8BE1737660D00BBDAC9 /* Concept01.jpg */,
+				57E1C8BF1737660D00BBDAC9 /* Concept02.JPG */,
+				57E1C8C01737660D00BBDAC9 /* Concept03.jpg */,
+				57E1C8C11737660D00BBDAC9 /* Concept04.jpg */,
+				57E1C8C21737660D00BBDAC9 /* Concept05.JPG */,
+				57E1C8C31737660D00BBDAC9 /* Concept06.jpg */,
+				57E1C8C41737660D00BBDAC9 /* Concept07.JPG */,
+			);
+			name = Concept;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571BEF521731824000EC43D1 /* ArmaHubApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571BEF761731824000EC43D1 /* Build configuration list for PBXNativeTarget "ArmaHubApp" */;
+			buildPhases = (
+				571BEF4F1731824000EC43D1 /* Sources */,
+				571BEF501731824000EC43D1 /* Frameworks */,
+				571BEF511731824000EC43D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArmaHubApp;
+			productName = ArmaHubApp;
+			productReference = 571BEF531731824000EC43D1 /* ArmaHubApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571BEF4B1731823F00EC43D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ArmaHubApp;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "RVC Student";
+			};
+			buildConfigurationList = 571BEF4E1731823F00EC43D1 /* Build configuration list for PBXProject "ArmaHubApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 571BEF4A1731823F00EC43D1;
+			productRefGroup = 571BEF541731824000EC43D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571BEF521731824000EC43D1 /* ArmaHubApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571BEF511731824000EC43D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571BEF611731824000EC43D1 /* InfoPlist.strings in Resources */,
+				571BEF691731824000EC43D1 /* Default.png in Resources */,
+				571BEF6B1731824000EC43D1 /* Default@2x.png in Resources */,
+				571BEF6D1731824000EC43D1 /* Default-568h@2x.png in Resources */,
+				571BEF701731824000EC43D1 /* MainStoryboard.storyboard in Resources */,
+				571BEF7A173182AF00EC43D1 /* ARMA_BG.jpg in Resources */,
+				571BEF80173183DD00EC43D1 /* button01.png in Resources */,
+				571BEF81173183DD00EC43D1 /* button02.png in Resources */,
+				571BEF82173183DD00EC43D1 /* button03.png in Resources */,
+				571BEF83173183DD00EC43D1 /* button04.png in Resources */,
+				571BEF901731865500EC43D1 /* comic01.jpg in Resources */,
+				571BEF911731865500EC43D1 /* comic02.jpg in Resources */,
+				571BEF921731865500EC43D1 /* comic03.jpg in Resources */,
+				571BEF931731865500EC43D1 /* comic04.jpg in Resources */,
+				571BEF941731865500EC43D1 /* comic05.jpg in Resources */,
+				571BEF951731865500EC43D1 /* comic06.jpg in Resources */,
+				571BEF961731865500EC43D1 /* comic07.jpg in Resources */,
+				570F13921731944500BE4C21 /* movie1.mp4 in Resources */,
+				570F13931731944500BE4C21 /* ARMA_Logo.png in Resources */,
+				576B176017374B550026E305 /* toy01.jpg in Resources */,
+				576B176117374B550026E305 /* toy02.jpg in Resources */,
+				576B176217374B550026E305 /* toy03.jpg in Resources */,
+				576B176317374B550026E305 /* toy04.jpg in Resources */,
+				576B176417374B550026E305 /* toy05.jpg in Resources */,
+				576B176517374B550026E305 /* toy06.jpg in Resources */,
+				576B176617374B550026E305 /* toy07.jpg in Resources */,
+				576B176717374B550026E305 /* toy08.jpg in Resources */,
+				576B176817374B550026E305 /* toy09.jpg in Resources */,
+				576B176917374B550026E305 /* toy10.jpg in Resources */,
+				576B176A17374B550026E305 /* toy11.jpg in Resources */,
+				576B176B17374B550026E305 /* toy12.jpg in Resources */,
+				57E1C8C51737660D00BBDAC9 /* Concept01.jpg in Resources */,
+				57E1C8C61737660D00BBDAC9 /* Concept02.JPG in Resources */,
+				57E1C8C71737660D00BBDAC9 /* Concept03.jpg in Resources */,
+				57E1C8C81737660D00BBDAC9 /* Concept04.jpg in Resources */,
+				57E1C8C91737660D00BBDAC9 /* Concept05.JPG in Resources */,
+				57E1C8CA1737660D00BBDAC9 /* Concept06.jpg in Resources */,
+				57E1C8CB1737660D00BBDAC9 /* Concept07.JPG in Resources */,
+				5760F1F017383059001902D8 /* iPad_BG01.jpg in Resources */,
+				5760F1F417383309001902D8 /* ebutton03.png in Resources */,
+				5760F1F517383309001902D8 /* ebutton02.png in Resources */,
+				5760F1F617383309001902D8 /* ebutton01.png in Resources */,
+				5760F1F9173833D1001902D8 /* iPad_BG03.jpg in Resources */,
+				5760F1FA173833D1001902D8 /* iPad_BG02.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571BEF4F1731824000EC43D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571BEF631731824000EC43D1 /* main.m in Sources */,
+				571BEF671731824000EC43D1 /* ArmaHubAppAppDelegate.m in Sources */,
+				571BEF731731824000EC43D1 /* ArmaHubAppViewController.m in Sources */,
+				571BEF87173184D400EC43D1 /* ArmaComic1ViewController.m in Sources */,
+				571BEF99173187E800EC43D1 /* ArmaComic2ViewController.m in Sources */,
+				571BEF9C17318D4600EC43D1 /* ArmaComic3ViewController.m in Sources */,
+				570F13971731954100BE4C21 /* ArmaVideoViewController.m in Sources */,
+				573B70351731DADC005D60E3 /* ArmaComic4ViewController.m in Sources */,
+				57D633C41733303E00EF82CE /* ArmaTwitterViewController.m in Sources */,
+				577C9BE6173335BF00AF6B70 /* ArmaTwitter1ViewController.m in Sources */,
+				577C9BE917333F9100AF6B70 /* ArmaComic5ViewController.m in Sources */,
+				576B174D17373FDE0026E305 /* ArmaExtrasViewController.m in Sources */,
+				576B1752173742250026E305 /* ArmaConcept1ViewController.m in Sources */,
+				576B176E17374F5B0026E305 /* ArmaToy01ViewController.m in Sources */,
+				576B1771173751050026E305 /* ArmaToy02ViewController.m in Sources */,
+				576B1774173751300026E305 /* ArmaToy03ViewController.m in Sources */,
+				57E1C8B91737618B00BBDAC9 /* ArmaToy04ViewController.m in Sources */,
+				57E1C8BC1737631100BBDAC9 /* ArmaToy05ViewController.m in Sources */,
+				57E1C8CE1737669900BBDAC9 /* ArmaConcept2ViewController.m in Sources */,
+				57E1C8D1173766A800BBDAC9 /* ArmaConcept3ViewController.m in Sources */,
+				57E1C8D4173766C100BBDAC9 /* ArmaConcept4ViewController.m in Sources */,
+				57E1C8D7173766D300BBDAC9 /* ArmaConcept5ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		571BEF5F1731824000EC43D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571BEF601731824000EC43D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		571BEF6E1731824000EC43D1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571BEF6F1731824000EC43D1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571BEF741731824000EC43D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		571BEF751731824000EC43D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		571BEF771731824000EC43D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArmaHubApp/ArmaHubApp-Prefix.pch";
+				INFOPLIST_FILE = "ArmaHubApp/ArmaHubApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		571BEF781731824000EC43D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArmaHubApp/ArmaHubApp-Prefix.pch";
+				INFOPLIST_FILE = "ArmaHubApp/ArmaHubApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571BEF4E1731823F00EC43D1 /* Build configuration list for PBXProject "ArmaHubApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571BEF741731824000EC43D1 /* Debug */,
+				571BEF751731824000EC43D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571BEF761731824000EC43D1 /* Build configuration list for PBXNativeTarget "ArmaHubApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571BEF771731824000EC43D1 /* Debug */,
+				571BEF781731824000EC43D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571BEF4B1731823F00EC43D1 /* Project object */;
+}
