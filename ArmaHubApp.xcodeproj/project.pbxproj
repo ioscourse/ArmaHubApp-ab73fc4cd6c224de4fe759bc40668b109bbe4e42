@@ -63,6 +63,10 @@
 		576B1774173751300026E305 /* ArmaToy03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B1773173751300026E305 /* ArmaToy03ViewController.m */; };
 		577C9BE6173335BF00AF6B70 /* ArmaTwitter1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577C9BE5173335BF00AF6B70 /* ArmaTwitter1ViewController.m */; };
 		577C9BE917333F9100AF6B70 /* ArmaComic5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577C9BE817333F9100AF6B70 /* ArmaComic5ViewController.m */; };
+		578AAE6F17384AF80005634D /* 7272.png in Resources */ = {isa = PBXBuildFile; fileRef = 578AAE6D17384AF80005634D /* 7272.png */; };
+		578AAE7217384BF90005634D /* 5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 578AAE7117384BF90005634D /* 5757.png */; };
+		578AAE7417384C1E0005634D /* 5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 578AAE7317384C1D0005634D /* 5757.png */; };
+		578AAE7617384C6B0005634D /* 114114.png in Resources */ = {isa = PBXBuildFile; fileRef = 578AAE7517384C6B0005634D /* 114114.png */; };
 		57D633C41733303E00EF82CE /* ArmaTwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D633C31733303E00EF82CE /* ArmaTwitterViewController.m */; };
 		57E1C8B91737618B00BBDAC9 /* ArmaToy04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1C8B81737618B00BBDAC9 /* ArmaToy04ViewController.m */; };
 		57E1C8BC1737631100BBDAC9 /* ArmaToy05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1C8BB1737631100BBDAC9 /* ArmaToy05ViewController.m */; };
@@ -153,6 +157,10 @@
 		577C9BE5173335BF00AF6B70 /* ArmaTwitter1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaTwitter1ViewController.m; sourceTree = "<group>"; };
 		577C9BE717333F9100AF6B70 /* ArmaComic5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaComic5ViewController.h; sourceTree = "<group>"; };
 		577C9BE817333F9100AF6B70 /* ArmaComic5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaComic5ViewController.m; sourceTree = "<group>"; };
+		578AAE6D17384AF80005634D /* 7272.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7272.png; sourceTree = "<group>"; };
+		578AAE7117384BF90005634D /* 5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5757.png; sourceTree = "<group>"; };
+		578AAE7317384C1D0005634D /* 5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5757.png; sourceTree = "<group>"; };
+		578AAE7517384C6B0005634D /* 114114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114114.png; sourceTree = "<group>"; };
 		57D633C21733303E00EF82CE /* ArmaTwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaTwitterViewController.h; sourceTree = "<group>"; };
 		57D633C31733303E00EF82CE /* ArmaTwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArmaTwitterViewController.m; sourceTree = "<group>"; };
 		57E1C8B71737618B00BBDAC9 /* ArmaToy04ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmaToy04ViewController.h; sourceTree = "<group>"; };
@@ -203,6 +211,8 @@
 		571BEF4A1731823F00EC43D1 = {
 			isa = PBXGroup;
 			children = (
+				578AAE7517384C6B0005634D /* 114114.png */,
+				578AAE7317384C1D0005634D /* 5757.png */,
 				576B174A17373FBD0026E305 /* Extras */,
 				57D6339F173326F500EF82CE /* NewsFeed */,
 				570F13941731951F00BE4C21 /* Movie */,
@@ -248,6 +258,8 @@
 		571BEF5D1731824000EC43D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				578AAE7117384BF90005634D /* 5757.png */,
+				578AAE6D17384AF80005634D /* 7272.png */,
 				5760F1F7173833D1001902D8 /* iPad_BG03.jpg */,
 				5760F1F8173833D1001902D8 /* iPad_BG02.jpg */,
 				5760F1EF17383059001902D8 /* iPad_BG01.jpg */,
@@ -499,6 +511,10 @@
 				5760F1F617383309001902D8 /* ebutton01.png in Resources */,
 				5760F1F9173833D1001902D8 /* iPad_BG03.jpg in Resources */,
 				5760F1FA173833D1001902D8 /* iPad_BG02.jpg in Resources */,
+				578AAE6F17384AF80005634D /* 7272.png in Resources */,
+				578AAE7217384BF90005634D /* 5757.png in Resources */,
+				578AAE7417384C1E0005634D /* 5757.png in Resources */,
+				578AAE7617384C6B0005634D /* 114114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
